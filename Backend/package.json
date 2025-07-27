@@ -1,17 +1,36 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "My Project",
+  "description": "my project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "[]"
+    "express",
+    "mongoose",
+    "cors",
+    "config",
+    "bcryptjs",
+    "dotenv",
+    "helmet",
+    "winston",
+    "morgan",
+    "jsonwebtoken"
   ],
-  "author": "shubham ghosh",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  },
+  "homepage": "https://github.com/akhil2k-lc/bookStoreApp#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
