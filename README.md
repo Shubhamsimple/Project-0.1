@@ -1,4 +1,4 @@
-# BookStore Project Documentation
+# BookStore Project Documentation #
 
 Overview
 BookStore is a full-stack web application that enables users to browse, register, log in, and view a list of books. It uses a modern React-based frontend with modular components, a Node.js/Express backend, and MongoDB to store users and books data. Authentication is handled with bcrypt for password hashing, and the UI is styled with TailwindCSS and DaisyUI.
